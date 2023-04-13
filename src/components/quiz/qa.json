@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_quiz_qas",
+  "info": {
+    "displayName": "qa"
+  },
+  "options": {},
+  "attributes": {
+    "step": {
+      "type": "integer",
+      "default": 3
+    },
+    "good": {
+      "type": "integer",
+      "default": 0
+    },
+    "bad": {
+      "type": "integer",
+      "default": 0
+    },
+    "question": {
+      "type": "string"
+    }
+  }
+}

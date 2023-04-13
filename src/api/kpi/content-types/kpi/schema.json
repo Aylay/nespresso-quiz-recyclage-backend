@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kpis",
+  "info": {
+    "singularName": "kpi",
+    "pluralName": "kpis",
+    "displayName": "kpi",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "quizStarted": {
+      "type": "integer",
+      "default": 0
+    },
+    "quizFinished": {
+      "type": "integer",
+      "default": 0
+    },
+    "goodBadAnswers": {
+      "displayName": "qa",
+      "type": "component",
+      "repeatable": true,
+      "component": "quiz.qa"
+    }
+  }
+}
